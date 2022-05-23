@@ -7,7 +7,7 @@ CC	=	clang++
 ######################################
 #             EXECUTABLE             #
 ######################################
-NAME	=	phonebook
+NAME	=	zombie
 
 #######################################
 #             DIRECTORIES             #
@@ -19,9 +19,10 @@ OBJSDIR	=	objs
 #            SOURCE FILES            #
 ######################################
 
-SRCS	=	PhoneBook.cpp	\
-			Contact.cpp		\
+SRCS	=	Zombie.cpp	\
 			main.cpp		\
+			newZombie.cpp \
+			randomChump.cpp
 
 ######################################
 #            OBJECT FILES            #

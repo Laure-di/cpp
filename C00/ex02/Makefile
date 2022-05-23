@@ -7,7 +7,7 @@ CC	=	clang++
 ######################################
 #             EXECUTABLE             #
 ######################################
-NAME	=	phonebook
+NAME	=	account
 
 #######################################
 #             DIRECTORIES             #
@@ -19,9 +19,8 @@ OBJSDIR	=	objs
 #            SOURCE FILES            #
 ######################################
 
-SRCS	=	PhoneBook.cpp	\
-			Contact.cpp		\
-			main.cpp		\
+SRCS	=	Account.cpp	\
+			tests.cpp	\
 
 ######################################
 #            OBJECT FILES            #
@@ -35,7 +34,7 @@ DEP	=	${OBJS:.o=.d}
 #                FLAGS                #
 #######################################
 
-FLAGS = -Wall -Werror -Wextra -MMD -MP -std=c++98 -pedantic-errors -g3
+FLAGS = -Wall -Werror -Wextra -MMD -MP -std=c++98 -pedantic-errors
 
 #######################################
 #                RULES                #
